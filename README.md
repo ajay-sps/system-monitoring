@@ -18,8 +18,8 @@ This project is a **System Process Monitoring Application** built using **Django
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <project_folder>
+    git clone https://github.com/ajay-sps/system-monitoring.git
+    cd system-monitoring
     ```
 
 2. Backend Setup:
