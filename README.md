@@ -20,21 +20,27 @@ This project is a **System Process Monitoring Application** built using **Django
     ```bash
     git clone <repository_url>
     cd <project_folder>
+    ```
 
 2. Backend Setup:
+    ```bash
     python3 -m venv env
     source env/bin/activate   # For Linux/Mac
     env\Scripts\activate      # For Windows
     pip install -r requirements.txt
     python manage.py migrate
     python manage.py runserver
+    ```
 
-<!-- The backend will be accessible at http://127.0.0.1:8000 -->
+    The backend will be accessible at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-3. Frontend Setup ( Open another terminal for frontend ):
+### Frontend Setup (React)
+
+1. Open another terminal for frontend:
+    ```bash
     cd system-monitor-frontend
     npm install
     npm start
-    The frontend will be accessible at http://localhost:3000 and here you can manage processes
+    ```
 
-
+    The frontend will be accessible at [http://localhost:3000](http://localhost:3000), where you can manage processes.
